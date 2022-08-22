@@ -4,15 +4,11 @@ function About() {
   return (
     <>
       <main>
-        <h2>Ooop....</h2>
+        <h2>錯誤！</h2>
         <p>
-          something wrong!
+          請輸入有效的網址再試一次。
         </p>
       </main>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
     </>
   );
 }

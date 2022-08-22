@@ -4,12 +4,14 @@ function Home() {
   return (
     <>
       <main>
-        <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
+        <h1>Home</h1>
+        <p>
+        React 前三週教學筆記：<br />
+        <a href="https://hackmd.io/4eFTX-knSI2jMifkRG4Ycw?view">React 起手式</a><br />
+        <a href="https://hackmd.io/R7h34b2YRheBu4liRAcXVA?view">React Component</a><br />
+        <a href="https://hackmd.io/JT9c76RYQlSBVGsHS8k_iw?view">React Router</a>
+        </p>
       </main>
-      <nav>
-        <Link to="/about">About</Link>
-      </nav>
     </>
   );
 }
