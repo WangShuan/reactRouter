@@ -1,18 +1,16 @@
-import {  Link } from "react-router-dom";
+import {  Link, useNavigate } from "react-router-dom";
 
 function About() {
+  let navigate = useNavigate();
   return (
     <>
       <main>
-        <h2>Who are we?</h2>
+        <h2>About</h2>
         <p>
-          That feels like an existential question, don't you
-          think?
+          React week3 <br/>
+          建立雙層路由與動態路由。
         </p>
       </main>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
     </>
   );
 }
