@@ -39,5 +39,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://WangShuan.github.io/reactRouter"
+  "homepage": ".",
+  "build": "react-scripts build && mkdir build. && mv build/static build./static"
 }
